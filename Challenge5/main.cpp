@@ -74,20 +74,6 @@ void reflectPolygon (wcPt2D * verts, GLint nVerts, GLfloat x0, GLfloat y0, wcPt2
   glEnd ( );
 }
 
-// Reflect the polygon about the y-axis.
-void reflectPolygonY (wcPt2D * verts, GLint nVerts, GLfloat x0, GLfloat y0, wcPt2D pivPt)
-{
-GLint k;
-  for (k = 0; k < nVerts; k++) {
-    verts [k].x = verts [k].x + 2 * (x0 - verts [k].x);
-    verts [k].y = verts [k].y + 2 * (y0 - verts [k].y);
-  }
-  glBegin (GL_POLYGON);
-    for (k = 0; k < nVerts; k++)
-      glVertex2f (verts [k].x, verts [k].y);
-  glEnd ( );
-}
-
 // Shear the polygon about the x-axis.
 void shearPolygon (wcPt2D * verts, GLint nVerts, GLfloat x0, GLfloat y0, GLfloat shx, GLfloat shy)
 {
@@ -191,21 +177,13 @@ void displayFcn (void) {
     reflectPolygon (pentVerts, nVerts, 50.0, 50.0, pivPt);
   glPopMatrix ( );*/
 
-  /*Case 5: Display another polygon to see the effect of reflection about y-axis
-  glColor3f (0.5, 0.5, 1.0);
-  glPushMatrix ( );
-    pivPt.x = 50.5;
-    pivPt.y = 50.5;
-    reflectPolygonY (pentVerts, nVerts, 40.0, 40.0, pivPt);
-  glPopMatrix ( );*/
-
-  /*Case 6: Display another polygon to see the effect of shear about x-axis
+  /*Case 5: Display another polygon to see the effect of shear about x-axis
   glColor3f (0.5, 0.5, 1.0);
   glPushMatrix ( );
     shearPolygon (pentVerts, nVerts, 150.0, 150.0, 0.5, 0.5);
   glPopMatrix ( );*/
 
-  /*Case 7: Display another polygon to see the effect of shear about y-axis
+  /*Case 6: Display another polygon to see the effect of shear about y-axis
   glColor3f (0.5, 0.5, 1.0);
   glPushMatrix ( );
     shearPolygonY (pentVerts, nVerts, -150.0, -150.0, 0.5, 0.5);
