@@ -51,7 +51,6 @@ async function animation(curv1, curv2) {
         y = bezierPoint(flistPoints[1], flistPoints[3], flistPoints[5], flistPoints[7], t);
         ellipse(x, y, 10, 10);
     }
-    await sleep(1000);
     for (i = 0; i <= steps; i++) {
         await sleep(1000);
         t = i / float(steps);
