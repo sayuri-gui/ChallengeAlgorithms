@@ -6,7 +6,7 @@ This program uses OpenGL that takes two points in the format (x, y) and returns 
 ## Requeriments
 <div>
     <p align="left">
-        To compile the programam use Codeblocks
+        To compile the program use Codeblocks
     <img width="40px" height="40px" src="https://www.nesabamedia.com/wp-content/uploads/2019/07/Code-Blocks-Logo-1.png"/>
 </div>
 
