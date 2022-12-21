@@ -29,9 +29,9 @@ Graphics</h3>
 - [Challenge 2: ](https://github.com/sayuri-gui/ChallengeAlgorithms/blob/main/challenge2.py) This Python program uses Processing Python to take two points in the format (x, y) and returns a list of approximated points representing a line segment, based on the next given test cases.
     1. (1,2),  (100,20)
     2. (10,200), (50,10)
-    3.(300,300), (10,10)
-    4.(200,300), (250,50)
-    5.(350,350), (100, 300)
+    3. (300,300), (10,10)
+    4. (200,300), (250,50)
+    5. (350,350), (100, 300)
 - [Challenge 3: ](https://github.com/sayuri-gui/ChallengeAlgorithms/tree/main/challenge3) 
 This program uses OpenGL that takes two points in the format (x, y) and returns a list of approximated points representing a line segment.
 - [Challenge 4: ](https://github.com/sayuri-gui/ChallengeAlgorithms/tree/main/Challenge4) 
