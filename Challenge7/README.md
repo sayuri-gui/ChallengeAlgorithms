@@ -25,4 +25,4 @@ Below the 3 main stages or scenes of your program
 
 ## Links
 - [Code in p5.js](https://editor.p5js.org/sayuri-gui/full/tx0IwWS8c)
-- [Preview](https://editor.p5js.org/sayuri-gui/sketches/tx0IwWS8c)
+- [Try it!](https://editor.p5js.org/sayuri-gui/sketches/tx0IwWS8c)
