@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="https://github.com/sayuri-gui/ChallengeAlgorithms.git">
-    <img src="https://javier.rodriguez.org.mx/itesm/2014/tecnologico-de-monterrey-blue.png" alt="Logo" width="280" height="80">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Logo_del_ITESM.svg" alt="Logo" width="80" height="80">
   </a>
 <h3 align="center">Modeling of Multi-Agent Systems with Computer
 Graphics</h3>
@@ -21,8 +21,6 @@ Graphics</h3>
 <img width="50px" height="50px" src="https://skillicons.dev/icons?i=js"/>
 <img width="50px" height="50px" src="https://skillicons.dev/icons?i=py"/>
 </div>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Challenges
 - [Challenge 1: ](https://github.com/sayuri-gui/ChallengeAlgorithms/blob/main/challenge1.cpp) This is a C++ program that takes two points in the format (x, y) and returns a list of approximated points representing a line segment
